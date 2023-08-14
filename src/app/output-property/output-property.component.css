@@ -1,0 +1,15 @@
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin: 10px;
+}
+
+input {
+    width: 200px;
+    height: 37px;
+    padding-left: 10px;
+    border: 1px solid #c0c0c0;
+}

@@ -1,0 +1,43 @@
+<!-- 
+    <section class="property-binding">
+        <article>
+            <p>Visite o meu github: {{ url }}</p>
+
+            <p>A soma de 1 + 1 é = {{ 1 + 1 }}</p>
+
+            <p>A soma de 1 + 1 não é {{ 1 + 1 + getCalc }}</p>
+        </article>
+    </section>
+-->
+
+<!-- 
+
+    <section class="event-binding">
+        <h1>Event Binding</h1>
+        
+        <button class="btn btn-primary" (click)="clickBtn()">Clique</button>
+        <br><br>
+
+        <input type="text" (keyup)="onKeyUp($event)"><br>
+        <span>{{ valorAtual }}</span>
+        <span>{{ valorSalvo }}</span>
+
+        <span
+            (mouseover)="onMouseOverOut()"
+            (mouseout)="onMouseOverOut()"
+            [class.highlight]="isMouseOver"
+            >
+            Passe o mouse aqui
+        </span>
+    </section>
+-->
+
+<section class="input-output-properties">
+    <article>
+        <h3>Input/Output Properties</h3>
+
+        <app-curso [nome]="nomeDoCurso"></app-curso>
+
+        <contador (mudouValor)="onMudouValor($event)"></contador>
+    </article>
+</section>
